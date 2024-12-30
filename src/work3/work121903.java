@@ -16,21 +16,23 @@ public class work121903 {
 			System.out.println("只能選1~9");
 			return;
 		}
+		
 		for (int i = 1; i <= 49; i++) {
-			if (unlike(i,num)) {
+			if (unlike(i, num)) {
 				System.out.print(i + " ");
 			}
 		}
 	}
-	public static boolean unlike(int num1,int num2) {
-		while(num1>0) {
-			int a = num1 % 10;  
-            if (a == num2) {
-                return false; 
-            }
-            num1 /= 10; 
-        }
-        return true; 
+
+	public static boolean unlike(int num1, int num2) {
+		while (num1 > 0) {
+			int a = num1 % 10;
+			if (a == num2) {
+				return false;
+			}
+			num1 /= 10;
 		}
+		return true;
+	}
 
 }

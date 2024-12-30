@@ -16,8 +16,8 @@ public class work121901 {
 
 		if (istriangle(a, b, c)) {
 			
-			String triangletype = gettriangletype(a,b,c);
-			System.out.println(triangletype);
+			
+			System.out.println(gettriangletype(a,b,c));
 		}
 		else System.out.println("不是三角形");
 
