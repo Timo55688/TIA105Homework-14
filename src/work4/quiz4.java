@@ -15,7 +15,7 @@ public class quiz4 {
 
 		int bow = sc.nextInt();
 		int people = 0;
-		String a = "";
+		String a = "有";
 
 		for (int i = 0; i < money.length; i++) {
 			if (bow <= money[i]) {

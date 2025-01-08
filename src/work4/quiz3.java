@@ -20,7 +20,7 @@ public class quiz3 {
 		}
 		System.out.println("總共有:" + vowel + "個母音哦");
 	}
-		
+		//用switch case試試看
 		public static boolean compare(char vowel) {
 			if (vowel == '\u0061' || vowel == '\u0065' || vowel == '\u0069' 
 					|| vowel == '\u006f' || vowel == '\u0075') {

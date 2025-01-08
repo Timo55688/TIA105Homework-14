@@ -14,7 +14,7 @@ public class quiz5 {
 		System.out.println("輸入日期：");
 		int d = sc.nextInt();
 
-		int[] day = { 31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+		int[] day = { 31, 30678, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 		int days = 0;
 
 		if (year4th(y)) {
@@ -26,7 +26,7 @@ public class quiz5 {
 		for (int i = 0; i < m - 1; i++) {
 			days += day[i];
 		}
-		System.out.println("輸入日期為該年的第" + (days + d )+ "天");
+		System.out.println("輸入日期為該年的第" + (days + d)+ "天");
 	}
 
 	public static boolean year4th(int y) {
