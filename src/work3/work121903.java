@@ -22,6 +22,7 @@ public class work121903 {
 				System.out.print(i + " ");
 			}
 		}
+		sc.close();
 	}
 
 	public static boolean unlike(int num1, int num2) {
